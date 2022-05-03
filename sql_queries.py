@@ -44,7 +44,7 @@ artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists
     (
         artist_id varchar PRIMARY KEY, 
         name varchar(100) NOT NULL, 
-        ocation varchar(200), 
+        location varchar(200), 
         latitude DOUBLE PRECISION, 
         longitude DOUBLE PRECISION
     );
